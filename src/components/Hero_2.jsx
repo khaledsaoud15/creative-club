@@ -41,8 +41,8 @@ const Hero_Content = styled.div`
   }
   @media (max-width: 480px) {
     top: 45%;
-    left: 20%;
-    transform: translateX(-20%);
+    left: 15%;
+    transform: translateX(-15%);
     grid-template-columns: repeat(2, 130px);
   }
 `;

@@ -7,14 +7,18 @@ import { useEffect } from "react";
 
 const Hero_4 = () => {
   useEffect(() => {
-    aos.init({ duration: 2000 });
+    aos.init();
   }, []);
   return (
     <Hero>
-      <Img src={img} data-aos="fade-down" />
+      <Img src={img} data-aos="fade-down" data-aos-duration="2000" />
       <Content data-aos="fade-up">
         {card.map((i, index) => (
-          <Card key={index}>
+          <Card
+            key={index}
+            data-aos="flip-right"
+            data-aos-duration={i.duration}
+          >
             <Card_Img src={i.img} />
             <Card_Desc>{i.desc}</Card_Desc>
             <More>MORE</More>
@@ -107,7 +111,6 @@ const Card_Desc = styled.p`
 const More = styled.p`
   text-align: center;
   cursor: pointer;
-  transition: all 0.4s 0s ease;
   position: relative;
   :hover {
     color: #f2b82d;
