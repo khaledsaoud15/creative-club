@@ -37,7 +37,7 @@ const Hero = styled.div`
     height: 250vh;
   }
   @media (max-width: 800px) {
-    height: 280vh;
+    height: 290vh;
     margin-top: 350px;
   }
 `;
