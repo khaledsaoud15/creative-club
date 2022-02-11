@@ -39,7 +39,7 @@ export default Hero_5;
 
 const Hero = styled.div`
   margin-bottom: 80px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   @media (max-width: 768px) {
@@ -60,7 +60,7 @@ const Wrapper = styled.div`
   gap: 10px;
   height: 100%;
   justify-content: center;
-  @media (max-width: 768px) {
+  @media (max-width: 820px) {
     grid-template-columns: repeat(2, 350px);
   }
   @media (max-width: 480px) {
@@ -92,13 +92,14 @@ const Div = styled.div`
   margin-top: 100px;
   align-items: center;
   justify-content: center;
-  @media (max-width: 768px) {
+  padding: 0 15px;
+  @media (max-width: 820px) {
     flex-direction: column;
   }
 `;
 const Hero_Header = styled.h1`
   font-size: 4rem;
-  @media (max-width: 768px) {
+  @media (max-width: 820px) {
     font-size: 2.5rem;
   }
 `;
@@ -108,7 +109,7 @@ const Hero_Desc = styled.p`
   font-size: 1rem;
   line-height: 30px;
   font-weight: 500;
-  @media (max-width: 768px) {
+  @media (max-width: 820px) {
     width: 100%;
   }
 `;
@@ -119,7 +120,7 @@ const Hero_Button = styled.button`
   background: #000;
   color: #fff;
   cursor: pointer;
-  @media (max-width: 768px) {
+  @media (max-width: 820px) {
     margin: 0 auto;
   }
 `;
