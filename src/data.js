@@ -21,10 +21,10 @@ import grid7 from "./images/34_150.png";
 import grid8 from "./images/location.png";
 
 import logo1 from "./images/tesla-9.svg";
-import logo2 from "./images/sony-logo.svg";
+import logo2 from "./images/logo-amazon.svg";
 import logo3 from "./images/logo-amazon.svg";
 import logo4 from "./images/evga.svg";
-import logo5 from "./images/medium-wordmark.svg";
+import logo5 from "./images/asos-1.svg";
 import logo6 from "./images/asos-1.svg";
 import logo7 from "./images/bergners-1.svg";
 import logo8 from "./images/bergners-1.svg";
